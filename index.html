@@ -5,7 +5,7 @@
   <meta charset="utf-8">
 
   <title>Whiskey Drop | Taste a new whiskey every month</title>
-  <meta name="viewport" content="width-device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css" type="text/css" />
@@ -13,8 +13,20 @@
 </head>
 
 <body>
-  <!--Nav-->
-  <nav class="navbar navbar-light navbar-expand-sm bg-light">
+  <!--Nav & Alert-->
+  
+  <div class="container-fluid navalert-container">
+        <div class="container-fluid alert-container">
+      <div class="row d-none d-sm-block">
+        <div class="col-12">
+          <div class="site-wide-alert alert alert-warning">
+            <strong>Sale Now On!</strong> We've got a sale on. Get a 12 month subscription for the price of 6! <a href="">See here for details!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  <<!--/Alert container-->
+  <nav class="navbar navbar-dark navbar-expand-sm">
     <a href="/" class="navbar-brand">Whiskey Drop</a>
 
     <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,24 +54,13 @@
     </div>
     <div class="d-none d-md-block">
       <p class="navbar-text my-auto mr-2"><i>Great whiskey delivered to your door</i></p>
-      <a href="/login">Sign In / Sign Up</a>
+      <a href="/login" class="btn btn--cta btn--red">Sign In / Sign Up</a>
     </div>
-    <!--</div>-->
   </nav>
-
-  <!--Alert container
-
-  <div class="container alert-container">
-    <div class="row d-none d-sm-block">
-      <div class="col-12">
-        <div class="alert alert-warning">
-          <strong>Sale Now On!</strong> We've got a sale on. Get a 12 month subscription for the price of 6! <a href="">See here for details!</a>
-        </div>
-      </div>
-    </div>
   </div>
 
-  <!--/Alert container-->
+  <!--</nav>-->
+
 
 
   <!-- Callout -->
